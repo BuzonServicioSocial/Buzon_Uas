@@ -80,7 +80,7 @@ header.inferior {
   .inferior .logo1,
   .inferior .logo3,
   .inferior .logo4 {
-    max-width: 100%; /* Cambiar el tamaño máximo según sea necesario */
+    max-width: 150%; /* Cambiar el tamaño máximo según sea necesario */
     margin-left: 0; /* Ajustar según sea necesario */
   }
 }
@@ -108,7 +108,7 @@ header nav ul {
   overflow: hidden;
   align-items: center;
   float: left;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Apple Chancery, cursive;
   font-size: 10px;
   position: absolute;
   bottom: 0;
@@ -135,7 +135,7 @@ nav ul {
 }
 nav ul li {
   float: left;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Apple Chancery, cursive;
   font-size: 20px;
 }
 nav ul li a {

@@ -124,7 +124,7 @@ margin-right: auto;
 outline: none;
 }
 
-@media (max-height: 400px) {
+@media (max-height: 760px) {
 .header {
     margin: 40px 0 0 0;
 }
