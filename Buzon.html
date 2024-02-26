@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buzón de Subdirección Regional Norte</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.9/css/unicons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="httos://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="Login_Registrer/styles.css">
+
+
+<!--Seccion de inicio -->
+    <h1 class="heading"> <span>Bienvenido a nuestro </span>buzón zona norte</h1>
+    <!--Seccion de acerca de.. -->
+<section class="about" id="about">
+        <div class="row">
+            <div  class="video-container" >
+                <Video src="gif/chica_2.mp4" loop autoplay muted></video>
+                <h3>Nos importa tu opinión </h3> 
+            </div>
+            <div class="content">
+                <h3><center>¡Bienvenido al buzón de quejas de los brigadistas de la zona norte de la UAS!</center> </h3>
+                <p style="white-space: pre-line ;"> Para nosotros es importante la integridad y seguridad de nuestros brigadistas, es por ello que optamos por crear un buzón de quejas donde los brigadistas expresen sus inquietudes, cometarios, malas experiencias o suguerencias a aportar. 
+                    Por favor, siéntete libre de compartir tus experiencias, observaciones o cualquier situación que consideres relevante. Tu participación es crucial para que podamos identificar áreas de mejora y tomar acciones concretas. Nos comprometemos a revisar cada mensaje de manera seria ya trabajar en conjunto para garantizar un ambiente seguro y positivo en nuestra comunidad universitaria. Agradecemos tu colaboración y confianza en nuestro compromiso con la excelencia y la seguridad. Juntos, construimos un entorno universitario más fuerte y solidario.</p>
+                <a href="#buzon" class="btn">Empezar <i class="uil uil-check-circle"></i></a>
+            </div>
+        </div></section>
+
+<!--Fin de seccion-->    
+
+
+    <!--Seccion del Buzón de quejas -->
+<section class="buzon" id="buzon">
+    <section class="contact" id="contact">
+        <div class="row">            
+            <form action="https://formsubmit.co/buzonserviciosocial2@gmail.com" method="POST">
+                <h3 class="heading"> Queremos saber <span>tu opinión</span></h3>
+                <div class="form-group">
+                    <input list="Name" type="text" name="Nombre del brigadista" class="form-style" placeholder="Nombre completo" class="box">
+                    <i class="input-icon uil uil-user"></i>
+                    <datalist id="Name">
+                        <option value="Anonimo"></option>
+                    </datalist>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="Nombre del asesor" class="form-style" placeholder="Nombre del asesor/a" class="box">
+                    <i class="input-icon uil uil-users-alt"></i>
+                </div>
+                <div class="form-group">
+                    <input type="date" name="Día de los Acontecimientos" class="form-style" placeholder="Fecha de los hechos" class="box">
+                    <i class="input-icon uil uil-calendar-alt"></i>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="Correo electrónico" class="form-style"  placeholder="Correo electrónico (Example@gmail.com)" class="box">
+                    <i class="input-icon uil uil-at"></i>
+                </div>
+                <div class="form-group">
+                    <input type="number" name="Número de telefónico" class="form-style"  placeholder="Número telefónico" class="box">
+                    <i class="input-icon uil uil-phone"></i>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-style" name="Asunto" placeholder="Asunto" class="box">
+                    <i class="input-icon uil uil-comment-alt-heart"></i>
+                </div>
+                <div class="form-group">
+                    <input list="tipo" name="Tipo de registro" type="text" class="form-style"  placeholder="Tipo de registro (Sugerencia, Queja, Comentario, Denuncia)" class="box">
+                    <i class="input-icon uil uil-comment-search"></i>
+                    <datalist id="tipo">
+                        <option value="Sugerencia"></option>
+                        <option value="Queja"></option>
+                        <option value="Comentario"></option>
+                        <option value="Denuncia"></option>
+                    </datalist>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-style" name="Comentario" class="box" placeholder="Escribe aqui tus inquietudes" id="" cols="30" rows="10"></textarea>
+                    <i class="input-icon uil uil uil-mailbox"></i>
+                </div>
+                <input type="submit" class="btn"  value="Enviar">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5501/">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+        </div>
+    </section>
+</section>
+<!--Fin de seccion-->
+
+
+<!--Seccion pie de pagina-->
+<!--Sección pie de pagina-->
+<style>
+    .inferior {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px; /* Ajusta el espaciado según tus necesidades */
+        letter-spacing: 12px
+    }
+</style>
+    <header class="inferior">
+        <img src="img/logo_inferior.png" alt="">
+            <a href="#" class="logo4">Sursum Versus <span></span></a>
+        <img class="logo" src="img/UAS_2025.png" alt=""  >
+    </header> 
+
+<!--Fin de sección-->
+<!--Fin de seccion-->
+
+<script src="./script.js"></script>
+
+</body>
+</html>
