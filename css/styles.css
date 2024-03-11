@@ -16,7 +16,7 @@ body {
 .inferior a{
   justify-content:center;
   text-align: center;
-  font-family: Apple Chancery, cursive;
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
 .inferior img{
@@ -31,7 +31,7 @@ body {
 }
 .inferior .logo1{
   justify-content:center;
-  font-family: Apple Chancery, cursive;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fff;
   font-size: 13px;
   margin-left: 21px;
@@ -57,7 +57,7 @@ header.inferior {
 
 .inferior .logo3{
   justify-content:center;
-  font-family: Apple Chancery, cursive;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fff;
   font-size: 25px;
   margin-left: 21px;
@@ -65,7 +65,7 @@ header.inferior {
 }
 .inferior .logo4{
   justify-content:center;
-  font-family: Apple Chancery, cursive;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fff;
   font-size: 25px;
   margin-left: 21px;
@@ -108,7 +108,7 @@ header nav ul {
   overflow: hidden;
   align-items: center;
   float: left;
-  font-family: Apple Chancery, cursive;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 10px;
   position: absolute;
   bottom: 0;
@@ -135,7 +135,7 @@ nav ul {
 }
 nav ul li {
   float: left;
-  font-family: Apple Chancery, cursive;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 20px;
 }
 nav ul li a {
@@ -175,7 +175,7 @@ nav ul li:hover {
 *{
   margin: 0; padding: 0;
   box-sizing: border-box;
-  font-family: Apple Chancery, cursive;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
   outline: none; border: none;
   text-decoration: none;
@@ -688,7 +688,7 @@ a:hover {
 }
 
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: var(--fondo);
 }
 
