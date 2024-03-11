@@ -33,14 +33,18 @@ body {
   justify-content:center;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fff;
-  font-size: 13px;
-  margin-left: 21px;
+  font-size: 10px;
   text-align: center;
-  position: absolute;
   bottom: 0;
   margin: 0px;
   background: rgb(57,148,255);
   background: linear-gradient(90deg, rgba(57,148,255,1) 0%, rgba(57,69,255,1) 19%, rgba(3,13,171,1) 75%);
+  position: absolute;
+  left: 110px; /* Ajusta la distancia desde la parte derecha según tus preferencias */
+  color: #f0f0f0; /* Puedes ajustar el color de fondo según tus preferencias */
+  padding: 10px; /* Puedes ajustar el relleno según tus necesidades */
+
+
 }
 header.inferior {
   display: flex;
@@ -73,6 +77,15 @@ header.inferior {
 }
 .uaslogo{
   z-index: 1;
+}
+.inferior .sub{
+  position: absolute;
+  top: 0px; /* Ajusta la distancia desde la parte superior según tus preferencias */
+  right: 120px; /* Ajusta la distancia desde la parte derecha según tus preferencias */
+  color: #f0f0f0; /* Puedes ajustar el color de fondo según tus preferencias */
+  padding: 10px; /* Puedes ajustar el relleno según tus necesidades */
+  background: rgb(57,148,255);
+  background: linear-gradient(90deg, rgb(34, 41, 235) 0%, rgb(7, 21, 221) 19%, rgba(3,13,171,1) 75%);
 }
 /* Reglas de medios para hacer responsive */
 @media only screen and (max-width: 768px) {
@@ -382,6 +395,27 @@ header .fa-bars{
   line-height: 1.5;
 }
 
+.contenedor_img{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0px; /* Puedes ajustar el relleno según tus necesidades */
+
+}
+.about .row .video-container1 img{
+  border: 0.5rem solid rgba(25, 0, 255, 0.363);
+  border-radius: .5rem;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+
+}
+.about .row .video-container1{
+  position: absolute;
+  bottom: 0;
+  right: 0px; /* Ajusta la cantidad de espacio desde el borde derecho según tus preferencias */
+  padding: 10px; /* Puedes ajustar el relleno según tus necesidades */
+}
+
 
  /*/ Inicio de About Us */
 .about .row{
@@ -405,6 +439,7 @@ header .fa-bars{
   height: 100%;
   object-fit: cover;
 }
+
 
 .about .row .video-container h3{
   position: absolute;
@@ -724,6 +759,7 @@ main {
 	font-size: 24px;
 	font-weight: 300;
 }
+
 .container-details-product {
 	padding: 40px 0;
 }
